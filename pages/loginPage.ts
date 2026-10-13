@@ -1,6 +1,7 @@
-import { LoginLocators } from "../Locators/LoginLocators";
-import { RegisterPage } from "./RegisterPage";
-import { Page } from "@playwright/test";
+import { LoginLocators } from "../Locators/LoginLocators.js";
+
+import { RegisterPage } from "./RegisterPage.js";
+import type { Page } from "@playwright/test";
 
 
 export class loginPage{

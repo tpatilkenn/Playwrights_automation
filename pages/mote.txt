@@ -1,0 +1,2 @@
+Page object object models,also known as POM,is a design pattern in test automation that creates an object repository for storing all locators.
+page object mobels can be implemented with fixtures,thorugh that we would be minimising  multiple page import and object creation in each test  file for multiple pages.

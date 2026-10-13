@@ -1,7 +1,7 @@
-import { Page } from '@playwright/test';
-import {RegisterPageLocators} from '../Locators/RegisterPageLocators.ts';
-import { LoginLocators } from '../Locators/LoginLocators.ts';
-import { FirstName, LastName } from '../utils/envConfig.ts';
+import type { Page } from '@playwright/test';
+import {RegisterPageLocators} from '../Locators/RegisterPageLocators.js';
+import { LoginLocators } from '../Locators/LoginLocators.js';
+import  { FirstName, LastName } from '../utils/envConfig.js';
 
 export class RegisterPage{
     constructor (private page :Page){

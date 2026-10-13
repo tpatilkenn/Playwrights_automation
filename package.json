@@ -1,6 +1,7 @@
 {
   "name": "playwrights_framework",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -9,6 +10,9 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.4.1"
+    "@types/node": "^26.6.5"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
   }
 }
